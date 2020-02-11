@@ -1,0 +1,13 @@
+.highlight {
+	-fx-fill: green;
+	-fx-font-weight: bold;
+	-fx-underline: true;
+}
+
+.red {
+	-fx-fill: red;
+}
+
+.blue {
+	-fx-fill: blue;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import org.fxmisc.richtext.StyleClassedTextArea?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0"
+	prefWidth="863.0" xmlns="http://javafx.com/javafx/11.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.wheezy.apps.regextest.RegExTesterController">
+	<children>
+		<ScrollPane fitToHeight="true" fitToWidth="true"
+			layoutX="15.0" layoutY="15.0" prefHeight="177.0" prefWidth="833.0"
+			AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0"
+			AnchorPane.topAnchor="15.0">
+			<content>
+				<StyleClassedTextArea fx:id="exampleTextArea"
+					wrapText="true" />
+			</content>
+		</ScrollPane>
+		<StyleClassedTextArea fx:id="regExTextField" layoutX="15.0"
+			layoutY="209.0" prefHeight="35.0" prefWidth="729.0"
+			AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+		<StyleClassedTextArea fx:id="resultsTextArea"
+			disable="true" editable="false" layoutX="15.0" layoutY="264.0"
+			prefHeight="200.0" prefWidth="200.0" wrapText="true"
+			AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+	</children>
+</AnchorPane>
